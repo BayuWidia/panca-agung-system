@@ -44,7 +44,7 @@
                 {{Auth::user()->name}}
               @endif
               <small>
-                Terdaftar tahun 2016
+                 {{ \Carbon\Carbon::parse(Auth::user()->created_at)->format('d-M-y')}}
               </small>
             </p>
           </li>
