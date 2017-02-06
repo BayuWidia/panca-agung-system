@@ -17,7 +17,7 @@
 
 <div class="container">
   <div class="main">
-    <div class="left" style="padding-top: 6.5%">
+    <div class="left" style="padding-top: 5.5%">
       <img src="{{asset('images/pancaagung.png')}}" />
     </div> <!--/ .left -->
 
