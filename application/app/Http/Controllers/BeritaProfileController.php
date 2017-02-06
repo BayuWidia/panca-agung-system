@@ -49,6 +49,7 @@ class BeritaProfileController extends Controller
     $set = new Berita;
     $set->id_kategori = $request->id_kategori;
     $set->isi_berita = $request->isi_berita;
+    $set->flag_publish = 0;
     $set->id_user = Auth::user()->id;
     $set->save();
 
