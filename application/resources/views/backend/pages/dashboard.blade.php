@@ -18,7 +18,7 @@
 
 @section('content')
   <div class="row">
-    <div class="col-lg-3 col-md-3 col-xs-12">
+    <div class="col-lg-6 col-md-3 col-xs-12">
       <div class="info-box bg-yellow">
         <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
 
@@ -30,14 +30,14 @@
             <div class="progress-bar" style="width:100%"></div>
           </div>
               <span class="progress-description">
-                <i>Yang telah terbuat</i>
+                <i>Data yang telah terbuat</i>
               </span>
         </div>
         <!-- /.info-box-content -->
       </div>
     </div><!-- ./col -->
 
-    <div class="col-lg-3 col-md-3 col-xs-12">
+    <div class="col-lg-6 col-md-3 col-xs-12">
       <div class="info-box bg-blue">
         <span class="info-box-icon"><i class="fa fa-users"></i></span>
 
@@ -49,17 +49,17 @@
             <div class="progress-bar" style="width: 100%"></div>
           </div>
               <span class="progress-description">
-                <i>Yang telah terdaftar</i>
+                <i>Data user yang telah terdaftar</i>
               </span>
         </div>
         <!-- /.info-box-content -->
       </div>
     </div><!-- ./col -->
 
-    <div class="col-lg-3 col-md-3 col-xs-12">
+    <div class="col-lg-6 col-md-3 col-xs-12">
       <!-- small box -->
       <div class="info-box bg-red">
-        <span class="info-box-icon"><i class="fa fa-thumbs-o-down"></i></span>
+        <span class="info-box-icon"><i class="fa fa-frown-o"></i></span>
 
         <div class="info-box-content">
           <span class="info-box-text">Jumlah Profile</span>
@@ -69,14 +69,14 @@
             <div class="progress-bar" style="width: 100%"></div>
           </div>
               <span class="progress-description">
-                 <i>Yang belum dipublish</i>
+                 <i>Data yang belum dipublish</i>
               </span>
         </div>
         <!-- /.info-box-content -->
       </div>
     </div><!-- ./col -->
 
-    <div class="col-lg-3 col-md-3 col-xs-12">
+    <div class="col-lg-6 col-md-3 col-xs-12">
       <!-- /.info-box -->
       <div class="info-box bg-aqua">
         <span class="info-box-icon"><i class="fa fa-desktop"></i></span>
@@ -89,7 +89,7 @@
             <div class="progress-bar" style="width: 100%"></div>
           </div>
               <span class="progress-description">
-                <i>Yang telah terbuat</i>
+                <i>Data kategori yang telah terbuat</i>
               </span>
         </div>
         <!-- /.info-box-content -->
