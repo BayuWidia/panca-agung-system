@@ -84,8 +84,6 @@
           <strong><i class="fa fa-calendar margin-r-5"></i> Tanggal Terdaftar</strong>
           <p class="text-muted">{{ \Carbon\Carbon::parse($getuser->created_at)->format('d-M-y')}}</p>
           <hr>
-
-          {{-- <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a> --}}
         </div><!-- /.box-body -->
       </div><!-- /.box -->
 
