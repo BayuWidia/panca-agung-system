@@ -37,6 +37,8 @@ class CreateClientTable extends Migration
      */
     public function down()
     {
-        // Schema::drop('client');
+        Schema::table('client', function (Blueprint $table) {
+            //
+        });
     }
 }

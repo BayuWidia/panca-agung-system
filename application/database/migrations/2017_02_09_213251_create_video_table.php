@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateKategoriBeritaTable extends Migration
+class CreateVideoTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,17 +12,16 @@ class CreateKategoriBeritaTable extends Migration
      */
     public function up()
     {
-        Schema::create('kategori_berita', function (Blueprint $table) {
+        Schema::create('video', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('id_user')->unsigned()->nullable();
-            $table->string('nama_kategori', 255)->nullable();
-            $table->string('keterangan_kategori', 225)->nullable();
-            $table->integer('flag_kategori')->nullable();
-            $table->integer('flag_utama')->nullable();
+            $table->string('url_video', 255)->nullable();
+            $table->string('judul_video', 225)->nullable();
+            $table->integer('flag_video')->nullable();
             $table->timestamps();
         });
 
-        Schema::table('kategori_berita', function(Blueprint $table){
+        Schema::table('video', function(Blueprint $table){
             $table->foreign('id_user')->references('id')->on('users');
         });
     }
@@ -34,6 +33,8 @@ class CreateKategoriBeritaTable extends Migration
      */
     public function down()
     {
-        // Schema::drop('kategori_berita');
+        Schema::table('video', function (Blueprint $table) {
+            //
+        });
     }
 }

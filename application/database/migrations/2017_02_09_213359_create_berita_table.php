@@ -19,7 +19,7 @@ class CreateBeritaTable extends Migration
             $table->integer('flag_headline')->nullable();
             $table->integer('flag_publish')->nullable();
             $table->integer('view_counter')->nullable();
-            $table->string('judul_berita', 255)->nullable();
+            $table->longText('judul_berita')->nullable();
             $table->date('tanggal_publish')->nullable();
             $table->string('url_foto', 225)->nullable();
             $table->string('tags', 225)->nullable();
@@ -43,6 +43,8 @@ class CreateBeritaTable extends Migration
      */
     public function down()
     {
-        // Schema::drop('berita');s
+        Schema::table('berita', function (Blueprint $table) {
+            //
+        });
     }
 }

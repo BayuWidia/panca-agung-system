@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateFiturTable extends Migration
+class CreateGalleryTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,17 +12,16 @@ class CreateFiturTable extends Migration
      */
     public function up()
     {
-        Schema::create('fitur', function (Blueprint $table) {
+        Schema::create('gallery', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('id_user')->unsigned()->nullable();
-            $table->string('nama_fitur', 255)->nullable();
-            $table->string('keterangan_fitur', 225)->nullable();
-            $table->string('url_fitur', 225)->nullable();
-            $table->integer('flag_fitur')->nullable();
+            $table->string('url_gambar', 255)->nullable();
+            $table->string('keterangan_gambar', 225)->nullable();
+            $table->integer('flag_gambar')->nullable();
             $table->timestamps();
         });
 
-        Schema::table('fitur', function(Blueprint $table){
+        Schema::table('gallery', function(Blueprint $table){
             $table->foreign('id_user')->references('id')->on('users');
         });
     }
@@ -34,6 +33,8 @@ class CreateFiturTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::table('gallery', function (Blueprint $table) {
+            //
+        });
     }
 }
