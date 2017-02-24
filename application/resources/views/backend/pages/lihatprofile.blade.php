@@ -88,9 +88,9 @@
     </div>
 
     <div class="col-md-12">
-      <div class="box box-success">
+      <div class="box box-danger">
         <div class="box-header">
-          <a href="{{url('admin/tambah-profile')}}" class="btn bg-navy btn-flat margin">Tambah Profile</a>
+          <a href="{{url('admin/tambah-profile')}}" class="btn bg-blue btn-flat margin">Tambah Profile</a>
         </div><!-- /.box-header -->
         <div class="box-body">
           <table id="tabelinfo" class="table table-hover">

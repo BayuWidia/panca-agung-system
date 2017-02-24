@@ -144,7 +144,7 @@
     <form class="form-horizontal" method="post" action="{{route('akun.store')}}" enctype="multipart/form-data">
       {{ csrf_field() }}
         <div class="col-md-4">
-          <div class="box box-success">
+          <div class="box box-danger">
             <div class="box-header with-border">
                 <h3 class="box-title">Formulir Tambah Akun </h3>
             </div>
@@ -223,7 +223,7 @@
     <!-- END FORM-->
     <!-- START TABLE-->
     <div class="col-md-8">
-      <div class="box box-success">
+      <div class="box box-danger">
         <div class="box-header with-border">
           <div class="box-title">
             Seluruh Data Akun 

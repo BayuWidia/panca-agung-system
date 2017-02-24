@@ -4,7 +4,7 @@
     @include('backend.includes.head')
     @yield('title')
   </head>
-  <body class="hold-transition skin-green sidebar-mini">
+  <body class="sidebar-mini skin-red-light">
     <div class="wrapper">
 
       <header class="main-header">
@@ -12,7 +12,7 @@
         @include('backend.includes.header')
       </header>
       <!-- Left side column. contains the logo and sidebar -->
-      <aside class="main-sidebar">
+      <aside class="main-sidebar skin-red">
         <!-- sidebar: style can be found in sidebar.less -->
         @include('backend.includes.sidebar')
         <!-- /.sidebar -->

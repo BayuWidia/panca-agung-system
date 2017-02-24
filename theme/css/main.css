@@ -583,6 +583,7 @@ img.mfp-img {
 	float:right;
 	position:relative;
 	margin-right:-15px;
+	top: 4px;
 }
 
 .searchNlogin li{
@@ -997,7 +998,7 @@ img.mfp-img {
 	width: 8px;
 	height: 8px;
 	margin: 5px;
-	background-color:#fff;
+	background-color:#c2c3c4;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
@@ -1070,6 +1071,11 @@ img.mfp-img {
 	position:relative;
 }
 
+#latest-news-promosi .post{
+	margin-right:30px;
+	position:relative;
+}
+
 .latest-news-wrapper {
 	margin-right:-30px;
 	margin-top:5px;
@@ -1110,6 +1116,10 @@ img.mfp-img {
 }
 
 #latest-news-video {
+	position:relative;
+}
+
+#latest-news-promosi {
 	position:relative;
 }
 
@@ -1169,6 +1179,13 @@ img.mfp-img {
 	text-align:right;
 }
 
+#latest-news-promosi .owl-controls .owl-pagination {
+	position:absolute;
+	top:21px;
+	right:3px;
+	text-align:right;
+}
+
 #latest-news .owl-controls .owl-page span {
 	background-color:#c2c3c4;
 	margin:3px;
@@ -1195,6 +1212,11 @@ img.mfp-img {
 }
 
 #latest-news-video .owl-controls .owl-page span {
+	/*background-color:#c2c3c4;*/
+	margin:3px;
+}
+
+#latest-news-promosi .owl-controls .owl-page span {
 	/*background-color:#c2c3c4;*/
 	margin:3px;
 }
@@ -1227,6 +1249,10 @@ img.mfp-img {
 	opacity:0.6;
 }
 
+#latest-news-promosi:hover .post img{
+	opacity:0.6;
+}
+
 #latest-news .post:hover img{
 	opacity:1;
 }
@@ -1248,6 +1274,10 @@ img.mfp-img {
 }
 
 #latest-news-video .post:hover img{
+	opacity:1;
+}
+
+#latest-news-promosi .post:hover img{
 	opacity:1;
 }
 
@@ -1310,8 +1340,8 @@ img.mfp-img {
 }
 
 .entry-content {
-	color:#888;
-	font-size:14px;
+	color:#313131;
+	font-size:15px;
 	font-weight: 300;
 }
 
@@ -1483,7 +1513,8 @@ img.mfp-img {
 
 .league-result ul li {
 	border-bottom:1px solid #f2f3f5;
-	padding:25px;
+	padding:15px 25px;
+	text-align: left;
 }
 
 .league-result img {
@@ -2308,12 +2339,12 @@ img.mfp-img {
 
 .top-add {
 	overflow:hidden;
-	margin:0px 0px 30px 0px;
+	margin:0px 0px 15px 0px;
 	height: 100px;
 }
 
 .top-add .navbar-header {
-	margin-top:15px;
+	margin-top:5px;
 }
 
 .homepage-two #navigation {
@@ -2327,7 +2358,7 @@ img.mfp-img {
 #breaking-news {
 	background-color:#fff;
 	overflow:hidden;
-	margin:25px 0;
+	margin:0 0;
 	border-radius:3px;
 }
 

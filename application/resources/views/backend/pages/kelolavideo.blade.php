@@ -137,7 +137,7 @@
     <div class="col-md-4">
       <form class="form-horizontal" action="{{route('video.store')}}" method="post">
         {{csrf_field()}}
-        <div class="box box-success">
+        <div class="box box-danger">
           <div class="box-header with-border">
             <h3 class="box-title">Formulir Tambah Video Baru</h3>
           </div>
@@ -179,7 +179,7 @@
     </div>
 
     <div class="col-md-8">
-      <div class="box box-success">
+      <div class="box box-danger">
         <div class="box-header">
           <h3 class="box-title">Seluruh Data Video</h3>
         </div><!-- /.box-header -->
